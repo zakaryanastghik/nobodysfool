@@ -1,0 +1,1366 @@
+* {
+    font-family: serif
+}
+
+.task-page {
+    padding: 0;
+}
+
+.header {
+    position: relative
+}
+
+.header-links > a {
+    color: #8E8E8E;
+    font-family: serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.header-links > a:not(:last-child):after {
+    margin-left: 3px;
+    margin-right: 3px;
+    content: '| ';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-links > a:hover {
+    color: #FFF;
+    transition: .5s;
+}
+
+.header-icons {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-icons > a {
+    text-decoration: none;
+    color: #8E8E8E;
+    display: inline-block;
+    color: #8E8E8E;
+    background: #8E8E8E;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 0 0;
+    text-align: center;
+    transition: all .5s;
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 2px;
+    margin-left: 7px;
+}
+
+
+.icon-linkedin:hover {
+    background: #0073B0;
+}
+
+.icon-twitter:hover {
+    background: #1DA1F2;
+}
+
+.icon-printerest:hover {
+    background: #E60023;
+}
+
+.icon-google-plus:hover {
+    background: #DB4A39;
+}
+
+.icon-rss:hover {
+    background: #F79637;
+}
+
+
+
+#show-nav {
+    position: absolute;
+    bottom: -20px;
+    width: 20px;
+    height: 20px;
+    background: #343A40;
+    color: white;
+    right: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+#show-nav:hover {
+    transform: scale(1.4)
+}
+
+
+
+.menu-bar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+
+}
+
+.menu-bar-item-wrapper {
+    width: 12%;
+}
+
+.menu-bar-item-link {
+    text-transform: uppercase;
+    color: #000;
+    font-family: serif;
+    width: auto;
+    display: inline-block;
+}
+
+.menu-bar-item-link:hover {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+
+.menu-bar-item-underline {
+    width: 100%;
+    height: 5px;
+    background: #F1F1F1;
+    display: inline-block;
+
+}
+
+.active-menu-item > .menu-bar-item-link {
+    color: #8E8E8E;
+}
+
+.active-menu-item > .menu-bar-item-underline {
+    background: #0099FF;
+}
+
+
+
+
+
+.page-top-section {
+    padding: 0px 20px 50px;
+}
+
+.page-top-section-subtitle {
+    color: #8E8E8E;
+}
+
+
+.page-top-section-form-wrapper {
+    align-self: flex-end
+}
+
+.page-top-section-form {
+    justify-content: flex-end;
+}
+
+.page-top-section-form-input {
+    background: #F1F1F1;
+    font-family: serif
+}
+
+.page-top-section-form-button {
+    text-transform: uppercase;
+    font-family: serif
+}
+
+
+
+
+
+.page-slide-section {
+    padding: 20px;
+    background: #F1F1F1;
+    box-shadow: 5px 10px #E9E9E9;
+
+}
+
+.page-slide-section-left-side {
+    margin: auto;
+    max-width: 400px
+}
+
+.page-slide-section-title,
+.page-slide-section-subtitle,
+.page-slide-section-button {
+    width: 100%;
+}
+
+.page-slide-section-subtitle {
+    color: #8E8E8E;
+}
+
+.page-slide-section-button {
+    font-family: serif;
+}
+
+.page-slide-section-right-side,
+.carousel-item > img {
+    max-height: 440px;
+}
+
+.card-device-section-left-side {
+    height: 400px;
+}
+
+.devices-section > div {
+
+    position: absolute;
+
+
+}
+
+.computer {
+    margin-top: 20px;
+    font-size: 300px;
+
+}
+
+.arrows {
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 400px;
+    transform: scaleX(-1) rotate(270deg);
+
+}
+
+.tablet {
+    font-size: 100px;
+    margin-top: 300px;
+    margin-left: 400px;
+
+}
+
+.arrows-two {
+    font-size: 60px;
+    margin-top: 450px;
+    margin-left: 330px;
+    transform: scaleX(-1) rotate(539deg);
+}
+
+.phone-rotate {
+    font-size: 80px;
+    margin-top: 500px;
+    margin-left: 200px;
+    transform: rotate(90deg);
+}
+
+.phone {
+    font-size: 80px;
+    margin-top: 490px;
+    margin-left: 130px;
+
+}
+
+.arrows-three {
+    font-size: 60px;
+    margin-top: 450px;
+    margin-left: 17px;
+    transform: scaleX(-1) rotate(440deg);
+
+}
+
+.card-device-section-right-side {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    border: 0;
+    max-width: 400px;
+
+}
+
+.card-img-top {
+    width: 85px;
+    height: 80px;
+    margin: auto;
+    display: block;
+
+}
+
+.card-title {
+    text-align: center;
+    color: #88C5D9;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.footer-footer {
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #1A1A1A;
+}
+
+
+
+.about-us {
+    font-family: serif;
+    color: white;
+}
+
+.pic-baby {
+    margin-top: 30px;
+}
+
+.footer-text-first {
+    padding: 30px 0;
+    font: 15px serif;
+    color: #757575;
+    text-align: justify;
+}
+
+.read-more-footer {
+    color: #0068CA;
+}
+
+.quick-links {
+    color: white;
+}
+
+.footer-text-two {
+    border-bottom: 2px solid #5E5E5E;
+    margin: 0;
+    color: #0068CA;
+
+}
+
+.footer-text-two svg {
+    color: #757575;
+    margin-right: 5px;
+
+}
+
+.latest-blog-posts {
+    color: white;
+
+}
+
+.post-title {
+    color: #757575;
+}
+
+.footer-text-three {
+    line-height: 16px;
+    color: #757575;
+}
+
+.footer-text-four {
+    line-height: 16px;
+    color: #757575;
+}
+
+.read-more-footer-two {
+    color: #0068CA;
+    text-align: right;
+
+}
+
+.contact-us1 {
+    color: white;
+}
+
+.footer-text-five {
+    line-height: 16px;
+    color: #757575;
+}
+
+.footer-text-six {
+    line-height: 16px;
+    color: #757575;
+}
+
+.read-more-footer-three {
+    color: #0068CA;
+    text-align: right;
+}
+
+.footer-sec {
+    border: 0px;
+
+    background-color: #232323;
+}
+
+.footer-inputs {
+    margin: 5px;
+}
+
+.message {
+    border: 0px;
+    margin-left: 6px;
+    background-color: #232323;
+    color: #757575;
+    padding: 9px;
+    border-radius: 3%;
+
+}
+
+.footer-button {
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+    .header-navbar {
+        height: 100px;
+    }
+
+    .header-links > a {
+        font-size: 23px;
+        margin-right: 5px;
+    }
+
+    .header-links > a:not(:last-child)::after {
+        font-size: 26px;
+        margin-left: 8px;
+    }
+
+    .header-icons > a {
+        font-size: 35px;
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        padding-top: 7px;
+
+    }
+
+    .menu-bar-item-link {
+        font-size: 21px;
+    }
+
+    .page-top-section-title {
+        font-size: 60px;
+    }
+
+    .page-top-section-subtitle {
+        font-size: 32px;
+    }
+
+    .page-top-section-form-input form-control {
+        width: 355px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .page-top-section-form-button {
+        height: 60px;
+        width: 135px;
+        font-size: 22px;
+    }
+
+    .page-slide-section-left-side {
+        max-width: 500px;
+    }
+
+    .page-slide-section-title > h1 {
+        font-size: 52px;
+    }
+
+    .page-slide-section-subtitle {
+        font-size: 27px;
+    }
+
+    .card-device-section-left-side {
+        height: 650px;
+    }
+
+    .devices-section {
+        margin-left: 20%;
+
+    }
+
+    .card-img-top {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 28px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .about-us,
+    .quick-links,
+    .latest-blog-posts,
+    .contact-us1 {
+        font-size: 36px;
+
+    }
+
+    .pic-baby > img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .footer-text-first,
+    .footer-text-two,
+    .read-more-footer {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1919px) {
+    .menu-bar-item-link {
+        font-size: 14px;
+    }
+
+    .computer {
+        font-size: 191px;
+    }
+
+    .arrows {
+        margin-left: 300px;
+    }
+
+    .tablet {
+        margin-left: 360px;
+    }
+
+    .phone-rotate {
+        margin-top: 457px;
+
+    }
+
+    .phone {
+        margin-top: 445px;
+    }
+
+    .arrows-three {
+        margin-top: 358px;
+    }
+
+    .read-more-footer,
+    .read-more-footer-two,
+    .read-more-footer-three {
+        text-align: right;
+
+    }
+
+    .pic-baby {
+        width: 190px;
+    }
+
+    .about-us {
+        font-size: 19px;
+    }
+
+    .quick-links {
+        font-size: 19px;
+
+    }
+
+    .latest-blog-posts {
+        font-size: 19px;
+    }
+
+    .contact-us1 {
+        font-size: 19px;
+    }
+
+    .footer-second-section > p {
+        font-size: 15px;
+        line-height: 2
+    }
+
+    .footer-inputs {
+        width: 220px;
+        height: 40px
+    }
+
+    .footer-inputs-textarea {
+        width: 220px;
+        height: 110px;
+        color: #495057;
+    }
+
+    .btn btn-primary {
+        width: 80px;
+        height: 40px;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    #navbarSupportedContent {
+        height: 60px;
+    }
+
+    .header-icons > a {
+        width: 45px;
+        height: 45px;
+        font-size: 27px;
+    }
+
+    .header-links > a {
+        font-size: 18px;
+    }
+
+    .header-links > a::after {
+        font-size: 18px !important;
+    }
+
+    .menu-bar {
+        margin: 40px 0;
+    }
+
+    .menu-bar-item-wrapper {
+        width: 25%;
+    }
+
+    .menu-bar-item-link {
+        font-size: 20px !important;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+
+    .footer-first-section,
+    .footer-second-section,
+    .footer-third-section,
+    .footer-fourth-section {
+        flex: 0 0 50%;
+        max-width: 50%;
+
+    }
+
+    .footer-first-section,
+    .footer-second-section {
+        margin-bottom: 40px
+    }
+
+    .read-more-footer {
+        font-size: 28px
+    }
+
+    .menu-bar-item-link {
+        font-size: 13px;
+    }
+
+    .pic-baby {
+        width: 100%;
+        height: 150px;
+    }
+
+    .footer-text-first {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .page-top-section-title {
+        font-size: 33px;
+    }
+
+    .page-top-section-form {
+        justify-content: center;
+    }
+
+    .page-top-section-form-input {
+        width: 192px;
+    }
+
+    .page-top-section-form-button {
+        width: 87px;
+    }
+
+    .page-slide-section-title {
+        font-size: 36px;
+
+    }
+
+
+    .latest-blog-posts,
+    .contact-us1,
+    .quick-links,
+    .about-us {
+        font-size: 28px;
+    }
+
+
+    .footer-inputs {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px
+    }
+
+    .footer-inputs-textarea {
+        height: 120px;
+    }
+
+    .footer-sec {
+        height: inherit;
+        width: inherit;
+        font-size: 20px
+    }
+
+
+    .footer-text-two {
+        font-size: 22px;
+        padding: 5px 0;
+
+    }
+
+    .footer-first-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 45px;
+    }
+
+    .about-us {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-pic {
+        width: inherit;
+        height: inherit;
+    }
+
+    .post-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .footer-text-three,
+    .footer-text-four,
+    .footer-text-five,
+    .footer-text-six {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .read-more-footer-two,
+    .read-more-footer-three {
+        font-size: 28px;
+    }
+
+    .footer-inputs-textarea > .footer-sec {
+        height: 120px
+    }
+
+    .footer-button {
+        position: relative;
+    }
+
+    .footer-button > button {
+        position: absolute;
+        width: 140px;
+        height: 55px;
+        font-size: 20px;
+        display: inline-block;
+        right: 0;
+    }
+
+
+    .card-device-section-left-side {
+        height: 540px;
+    }
+
+    .devices-section {
+        width: 100%;
+        position: relative;
+        height: 540px
+    }
+
+    .computer {
+        font-size: 200px;
+        left: 200px;
+        right: auto;
+    }
+
+    .arrows {
+        margin: 0;
+        right: 200px;
+        top: 200px
+    }
+
+    .tablet {
+        margin: 0;
+        right: 200px;
+        top: 300px
+    }
+
+    .arrows-two {
+        margin: 0;
+        right: 250px;
+        top: 450px
+    }
+
+    .phone-rotate {
+        margin: 0;
+        right: 380px;
+        top: 430px
+    }
+
+    .phone {
+        margin: 0;
+        right: 450px;
+        top: 430px
+    }
+
+    .arrows-three {
+        margin: 0;
+        right: 550px;
+        top: 300px;
+        transform: scaleX(-1) rotate(50deg);
+
+    }
+
+    .card-img-top {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 26px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 376px) {
+    #navbarSupportedContent {
+        height: 60px;
+    }
+
+    .header-icons > a {
+        width: 45px;
+        height: 45px;
+        font-size: 27px;
+    }
+
+    .header-links > a {
+        font-size: 18px;
+    }
+
+    .header-links > a::after {
+        font-size: 18px !important;
+    }
+
+    .menu-bar {
+        margin: 40px 0;
+        height: 300px;
+
+    }
+
+    .menu-bar-item-wrapper {
+        width: 50%;
+    }
+
+    .menu-bar-item-link {
+        font-size: 20px !important;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+
+    .page-top-section-title-wrapper {
+        text-align: center;
+
+    }
+
+    .page-top-section-title {
+        font-size: 46px;
+    }
+
+    .page-top-section-subtitle {
+        font-size: 28px;
+    }
+
+    .page-top-section-form-input {
+        width: 100%;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .page-top-section-form {
+        justify-content: center;
+    }
+
+    .page-top-section-form-button {
+        width: 110px;
+        margin-top: 40px;
+        padding: 10px 15px;
+        font-size: 20px
+    }
+
+
+    .page-slide-section-title {
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .page-slide-section-subtitle {
+        font-size: 22px;
+        text-align: justify;
+        width: 80%;
+        margin: auto;
+    }
+
+    .page-slide-section-form-button {
+        display: block;
+        margin: 25px auto 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+
+
+    .card-device-section-left-side {
+        height: 540px;
+    }
+
+    .devices-section {
+        width: 378px;
+        position: relative;
+        height: 540px;
+        margin: auto;
+    }
+
+    .computer {
+        font-size: 200px;
+        right: 70px;
+    }
+
+    .arrows {
+        margin: 0;
+        right: 10px;
+        top: 240px
+    }
+
+    .tablet {
+        margin: 0;
+        right: 10px;
+        top: 320px
+    }
+
+    .arrows-two {
+        margin: 0;
+        right: 50px;
+        top: 450px
+    }
+
+    .phone-rotate {
+        margin: 0;
+        right: 150px;
+        top: 430px
+    }
+
+    .phone {
+        margin: 0;
+        right: 220px;
+        top: 430px
+    }
+
+    .arrows-three {
+        margin: 0;
+        right: 270px;
+        top: 290px;
+        transform: scaleX(-1) rotate(50deg);
+        font-size: 80px;
+    }
+
+
+    .card-device-section-right-side {
+        justify-content: center
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 50px
+    }
+
+
+    .footer-first-section,
+    .footer-second-section,
+    .footer-third-section,
+    .footer-fourth-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+    .page-slide-section-title {
+        font-size: 36px;
+    }
+
+    .footer-third-section,
+    .footer-fourth-section {
+        margin-top: 45px;
+    }
+
+    .latest-blog-posts,
+    .contact-us1,
+    .quick-links {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 30px
+    }
+
+
+    .footer-inputs {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px
+    }
+
+    .footer-inputs-textarea {
+        height: 120px;
+    }
+
+    .footer-sec {
+        height: inherit;
+        width: inherit;
+        font-size: 20px
+    }
+
+
+    .footer-text-two {
+        font-size: 22px;
+        padding: 5px 0;
+
+    }
+
+    .footer-first-section {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 45px;
+    }
+
+    .footer-text-three,
+    .footer-text-four,
+    .footer-text-five,
+    .footer-text-six {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .read-more-footer-two,
+    .read-more-footer-three {
+        font-size: 28px;
+    }
+
+    .footer-inputs-textarea > .footer-sec {
+        height: 120px
+    }
+
+    .footer-button {
+        position: relative;
+    }
+
+    .footer-button > button {
+        width: 140px;
+        height: 55px;
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        width: 100%
+    }
+
+
+    .card-img-top {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 26px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 376px) {
+    #show-nav{
+        display: none;
+    }
+    #navbarSupportedContent {
+        height: 60px;
+    }
+
+    .header-icons > a {
+        width: 45px;
+        height: 45px;
+        font-size: 27px;
+    }
+
+    .header-links > a {
+        font-size: 18px;
+    }
+
+    .header-links > a::after {
+        font-size: 18px !important;
+    }
+
+    .menu-bar {
+        margin: 40px 0;
+        height: 300px;
+
+    }
+
+    .menu-bar-item-wrapper {
+        width: 50%;
+    }
+
+    .menu-bar-item-link {
+        font-size: 20px !important;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+
+    .page-top-section-title-wrapper {
+        text-align: center;
+
+    }
+
+    .page-top-section-title {
+        font-size: 46px;
+    }
+
+    .page-top-section-subtitle {
+        font-size: 28px;
+    }
+
+    .page-top-section-form-input {
+        width: 100%;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .page-top-section-form {
+        justify-content: center;
+    }
+
+    .page-top-section-form-button {
+        width: 110px;
+        margin-top: 40px;
+        padding: 10px 15px;
+        font-size: 20px
+    }
+
+
+    .page-slide-section-title {
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .page-slide-section-subtitle {
+        font-size: 22px;
+        text-align: justify;
+        width: 80%;
+        margin: auto;
+    }
+
+    .page-slide-section-form-button {
+        display: block;
+        margin: 25px auto 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+
+
+    .card-device-section-left-side {
+        height: 540px;
+    }
+
+    .devices-section {
+        width: 378px;
+        position: relative;
+        height: 540px;
+        margin: auto;
+    }
+
+    .computer {
+        font-size: 160px;
+        right: 150px;
+    }
+
+    .arrows {
+        margin: 0;
+        right: 100px;
+        top: 180px
+    }
+
+    .tablet {
+        margin: 0;
+        right: 100px;
+        top: 250px
+    }
+
+    .arrows-two {
+        margin: 0;
+        right: 120px;
+        top: 380px
+    }
+
+    .phone-rotate {
+        margin: 0;
+        right: 200px;
+        top: 370px;
+    }
+
+    .phone {
+        margin: 0;
+        right: 270px;
+        top: 370px
+    }
+
+    .arrows-three {
+        margin: 0;
+        right: 290px;
+        top: 250px;
+        transform: scaleX(-1) rotate(50deg);
+        font-size: 80px;
+    }
+
+
+    .card-device-section-right-side {
+        justify-content: center
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 50px
+    }
+
+
+    .footer-first-section,
+    .footer-second-section,
+    .footer-third-section,
+    .footer-fourth-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+    .page-slide-section-title {
+        font-size: 36px;
+    }
+
+    .footer-third-section,
+    .footer-fourth-section {
+        margin-top: 45px;
+    }
+
+    .latest-blog-posts,
+    .contact-us1,
+    .quick-links {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 30px
+    }
+
+    .footer-footer{
+        margin: 50px 0;
+        padding: 55px 5px;
+    }
+    .footer-inputs {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px
+    }
+
+    .footer-inputs-textarea {
+        height: 120px;
+    }
+
+    .footer-sec {
+        height: inherit;
+        width: inherit;
+        font-size: 20px
+    }
+
+
+    .footer-text-two {
+        font-size: 22px;
+        padding: 5px 0;
+
+    }
+
+    .footer-first-section {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 45px;
+    }
+
+    .footer-text-three,
+    .footer-text-four,
+    .footer-text-five,
+    .footer-text-six {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .read-more-footer-two,
+    .read-more-footer-three {
+        font-size: 28px;
+    }
+
+    .footer-inputs-textarea > .footer-sec {
+        height: 120px
+    }
+
+    .footer-button {
+        position: relative;
+    }
+
+    .footer-button > button {
+        width: 140px;
+        height: 55px;
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        width: 100%
+    }
+
+
+    .card-img-top {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 26px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+}
